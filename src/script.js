@@ -1,13 +1,13 @@
 function alertCityTime(event) {
   if (event.target.value.length > 0) {
     if (event.target.value === "houston") {
-      alert(`It is ${houstonTime} in Houston, Texas, USA`);
+      alert(`It is ${houstonTime} in Houston, Texas, USA 🇺🇸`);
     }
     if (event.target.value === "seoul") {
-      alert(`It is ${seoulTime} in Seoul, South Korea`);
+      alert(`It is ${seoulTime} in Seoul, South Korea 🇰🇷`);
     }
     if (event.target.value === "taipei") {
-      alert(`It is ${taipeiTime} in Taipei, Taiwan`);
+      alert(`It is ${taipeiTime} in Taipei, Taiwan 🇹🇼`);
     }
   }
 }
